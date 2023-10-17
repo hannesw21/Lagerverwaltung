@@ -7,6 +7,7 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 
 public class MainViewController implements Initializable {
 
@@ -15,10 +16,11 @@ public class MainViewController implements Initializable {
 	private void beenden(ActionEvent arg0) {
 		Platform.exit();
 }
-
+    @FXML
+    private Label lblDatum;
 
     @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        
+    public void initialize(URL location, ResourceBundle resources) {  
+        lblDatum.setText("Hallo"); 
     }
 }
