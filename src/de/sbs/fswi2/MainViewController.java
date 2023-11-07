@@ -18,9 +18,8 @@ public class MainViewController implements Initializable {
     }
     @FXML
     private void addTabAdd(ActionEvent event){
-
     }
-    
+
     @FXML
     private Label lblDatum;
 
