@@ -14,5 +14,6 @@
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.media.jar",
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.swing.jar",
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.web.jar"
-    ]
+    ],
+    "java.dependency.packagePresentation": "flat"
 }
