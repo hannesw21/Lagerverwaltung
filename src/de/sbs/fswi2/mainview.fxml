@@ -60,7 +60,7 @@
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Button alignment="TOP_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#beenden" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                        <Button alignment="TOP_LEFT" contentDisplay="CENTER" mnemonicParsing="false" onAction="#addTabAdd" onMouseClicked="#addTabAdd" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
                            <graphic>
                               <ImageView pickOnBounds="true" preserveRatio="true">
                                  <image>
