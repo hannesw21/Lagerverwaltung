@@ -1,7 +1,7 @@
 {
-    // Verwendet IntelliSense zum Ermitteln möglicher Attribute.
-    // Zeigen Sie auf vorhandene Attribute, um die zugehörigen Beschreibungen anzuzeigen.
-    // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -15,7 +15,7 @@
             "name": "MainView",
             "request": "launch",
             "mainClass": "de.sbs.fswi2.MainView",
-            "projectName": "Lagerverwaltung_1de8d9f7",
+            "projectName": "Lagerverwaltung_f0ccba3a",
             "vmArgs": "--module-path /Users/student/javafx-sdk-17.0.8/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]

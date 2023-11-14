@@ -10,8 +10,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 
 public class MainViewController implements Initializable {
-
-
 	@FXML
 	private void beenden(ActionEvent arg0) {
 		System.exit(0);
