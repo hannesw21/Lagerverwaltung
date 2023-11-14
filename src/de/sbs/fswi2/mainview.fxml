@@ -64,7 +64,7 @@
                            <graphic>
                               <ImageView pickOnBounds="true" preserveRatio="true">
                                  <image>
-                                    <Image url="@../../../../../../../Pictures/Bild_Plus_180x180.png" />
+                                    <Image url="@images/Bild_Plus_180x180.png" />
                                  </image></ImageView>
                            </graphic>
                         </Button>
