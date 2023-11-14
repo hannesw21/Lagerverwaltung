@@ -18,6 +18,7 @@ public class MainViewController implements Initializable {
     }
     @FXML
     private void addTabAdd(ActionEvent event){
+        setAnzahlDaten();
     }
 
     @FXML
@@ -26,8 +27,14 @@ public class MainViewController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {  
         lblDatum.setText(new java.text.SimpleDateFormat("dd.MM.yyyy").format(new java.util.Date())); 
+        setAnzahlDaten();
+    }
+
+    private void setAnzahlDaten(){
         accessObject.getAll();
     }
+
+
     private Stage primaryStage;
     public void setStage (Stage primaryStage){
         this.primaryStage = primaryStage;
