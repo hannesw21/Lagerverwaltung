@@ -25,6 +25,6 @@ public class MainViewController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {  
-        lblDatum.setText("Hallo"); 
+        lblDatum.setText(new java.text.SimpleDateFormat("dd.MM.yyyy").format(new java.util.Date())); 
     }
 }
