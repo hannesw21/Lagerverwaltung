@@ -31,7 +31,15 @@ public class MainViewController implements Initializable {
     }
 
     private void setAnzahlDaten(){
-        accessObject.getAll();
+        Thread getDataThread = new Thread(()->{
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            accessObject.getAll();
+        });
+        getDataThread.start();
     }
 
 
