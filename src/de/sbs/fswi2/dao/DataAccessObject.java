@@ -9,7 +9,7 @@ public class DataAccessObject implements Speicherbar <DataTransferObject>{
 
     @Override
     public List<DataTransferObject> getAll() {
-        System.out.println(DAOHttpService.useService());
+        System.out.println(DAOHttpService.getJSONOffline());
         return null;
     }
 
