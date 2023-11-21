@@ -30,5 +30,7 @@ public class MainView extends Application {
 
         // 6. Schritt: Stage anzeigen
         primaryStage.show();
+        MainViewController controller = loader.getController();
+        controller.setStage(primaryStage);
     }
 }
