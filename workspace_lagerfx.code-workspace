@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "Dao_Service"
+		},
+		{
+			"path": "Lagerverwaltung"
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"/Users/student/Jars.jar/**/*.jar"
+		]
+	}
+}
