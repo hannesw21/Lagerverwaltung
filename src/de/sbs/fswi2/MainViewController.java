@@ -40,6 +40,7 @@ public class MainViewController implements Initializable {
             accessObject.getAll();
         });
         getDataThread.start();
+        
     }
 
 
