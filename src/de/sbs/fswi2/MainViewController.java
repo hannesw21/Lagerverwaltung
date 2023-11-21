@@ -11,7 +11,7 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 public class MainViewController implements Initializable {
-    private DataAccessObject accessObject = new DataAccessObject();
+    private DataAccessObject dao = new DataAccessObject();
 	@FXML
 	private void beenden(ActionEvent arg0) {
 		System.exit(0);
@@ -23,11 +23,15 @@ public class MainViewController implements Initializable {
 
     @FXML
     private Label lblDatum;
+    @FXML 
+    Label lblAnzahlDaten;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {  
         lblDatum.setText(new java.text.SimpleDateFormat("dd.MM.yyyy").format(new java.util.Date())); 
-        setAnzahlDaten();
+        lblAnzahlDaten.setText(String.valueOf(dao.getAll().size()));
+        //setAnzahlDaten();
+        
     }
 
     private void setAnzahlDaten(){
@@ -37,10 +41,10 @@ public class MainViewController implements Initializable {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            accessObject.getAll();
+            dao.getAll();
         });
         getDataThread.start();
-        
+
     }
 
 
