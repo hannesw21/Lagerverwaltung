@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/student/Jars.jar/**/*.jar",
+        "/Users/student/Dao_Service/lib/**/*.jar"
+    ]
+}

@@ -12,7 +12,9 @@
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.graphics.jar",
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.media.jar",
         "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.swing.jar",
-        "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.web.jar"
+        "/Users/student/Downloads/javafx-sdk-17.0.8/lib/javafx.web.jar",
+        "/Users/student/Documents/Java projekte/Dao_Service/Dao_Service.jar",
+        "/Users/student/Documents/Java projekte/Dao_Service/lib/**/*.jar"
     ],
     "java.dependency.packagePresentation": "flat"
 }
